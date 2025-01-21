@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ### 4. Run the Game
 
 ```bash
-python game.py
+python __main__.py
 ```
 
 ##  Testing
@@ -58,6 +58,16 @@ Run tests using:
 
 ```bash
 pytest
+```
+
+Run specific tests using:
+
+```bash
+pytest test_card.py
+pytest test_deck.py
+pytest test_game.py
+pytest test_hand.py
+
 ```
 
 ## 🎥 Demo
